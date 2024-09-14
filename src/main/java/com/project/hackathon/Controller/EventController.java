@@ -1,7 +1,7 @@
-package com.example.demo.Controller;
+package com.project.hackathon.Controller;
 
-import com.example.demo.Model.Event;
-import com.example.demo.Service.EventService;
+import com.project.hackathon.Model.Event;
+import com.project.hackathon.Service.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

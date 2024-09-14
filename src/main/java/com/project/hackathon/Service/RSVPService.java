@@ -1,7 +1,7 @@
-package com.example.demo.Service;
+package com.project.hackathon.Service;
 
-import com.example.demo.Model.RSVP;
-import com.example.demo.Repository.RSVPRepository;
+import com.project.hackathon.Model.RSVP;
+import com.project.hackathon.Repository.RSVPRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

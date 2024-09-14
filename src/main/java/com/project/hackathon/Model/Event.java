@@ -1,4 +1,4 @@
-package com.example.demo.Model;
+package com.project.hackathon.Model;
 
 import jakarta.persistence.*;
 import java.util.Date;

@@ -1,7 +1,7 @@
-package com.example.demo.Service;
+package com.project.hackathon.Service;
 
-import com.example.demo.Model.Event;
-import com.example.demo.Repository.EventRepository;
+import com.project.hackathon.Model.Event;
+import com.project.hackathon.Repository.EventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

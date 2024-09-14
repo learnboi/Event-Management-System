@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>RSVP</title>
+</head>
+<body>
+<h1>RSVP for Event</h1>
+<form action="/api/rsvps" method="post">
+    <input type="hidden" name="eventId" th:value="${event.id}" />
+    <label>Email:</label>
+    <input type="email" name="userEmail" required />
+    <button type="submit">RSVP</button>
+</form>
+</body>
+</html>

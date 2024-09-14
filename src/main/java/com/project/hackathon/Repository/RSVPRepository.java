@@ -1,6 +1,6 @@
-package com.example.demo.Repository;
+package com.project.hackathon.Repository;
 
-import com.example.demo.Model.RSVP;
+import com.project.hackathon.Model.RSVP;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
