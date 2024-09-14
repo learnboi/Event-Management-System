@@ -1,5 +1,6 @@
 package com.project.hackathon.Model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import java.util.Date;
 import java.util.List;
@@ -54,6 +55,7 @@ public class Event {
     }
 
     @OneToMany(mappedBy = "event", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonManagedReference
     private List<RSVP> attendees;
 
 }
